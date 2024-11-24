@@ -2,7 +2,6 @@ import random
 
 first_paste = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 first_number = random.choice(first_paste)
-print(first_number)
 result = []
 for i in range(1, first_number + 1):
     for j in range(1, first_number):
